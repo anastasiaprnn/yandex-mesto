@@ -1,0 +1,135 @@
+.page {
+    font-family: 'Inter', 'Arial', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    color: #FFFFFF;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    width: calc(100% - 200px *2);
+    margin: 45px 200px 0;
+}
+
+.header__logo {
+    height: 33px;
+    width: 142px;
+}
+
+.content {
+
+}
+
+.profile {
+    display: flex;
+    width: calc(100% - 200px * 2);
+    margin: 77.25px 200px 0;
+}
+
+.profile__avatar {
+    width: 127.5px;
+    height: 127.5px;
+    border-radius: 50%;
+}
+
+.profile__info {
+    display: flex;
+}
+
+.profile__name {
+
+}
+
+.profile__name_author {
+
+}
+
+.profile__name_comment {
+
+}
+
+.profile__edit-button {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+}
+
+.profile__edit-button_picture {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+}
+
+.profile__button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    padding: 14px 64px;
+}
+
+.profile__button_picture {
+    width: 22px;
+    height: 22px;
+    padding: 0;
+}
+
+.elements {
+    width: calc(100% - 200px * 2);
+    margin: 47.25px 200px 0;
+}
+
+.elements__list {
+    
+    list-style: none;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 17px;;
+    padding-left: 0;
+}
+
+.elements__element {
+
+}
+
+.elements__figure {
+    margin: 0;
+}
+
+.elements__photo {
+    width: 282px;
+    height: 282px;
+    margin: 0;
+    padding: 0;
+}
+
+.elements__caption {
+    background-color: white;
+    margin: 0;
+    
+}
+
+.elements__title {
+    color: black;
+    background-color: white;
+    padding: 25px 20px 31px;
+    margin: 0;
+    line-height: 29,05px;
+    font-size: 24px;
+}
+
+.elements__like {
+
+}
+
+.footer {
+
+}
+
+.footer__copyright {
+    color: grey;
+}
