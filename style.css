@@ -9,7 +9,7 @@
 }
 
 .header {
-    width: calc(100% - 200px *2);
+    /*width: calc(100% - 200px *2);*/
     margin: 45px 200px 0;
 }
 
@@ -19,13 +19,15 @@
 }
 
 .content {
-
+ 
 }
 
 .profile {
     display: flex;
-    width: calc(100% - 200px * 2);
+    /*width: calc(100% - 200px * 2);*/
     margin: 77.25px 200px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .profile__avatar {
@@ -36,24 +38,34 @@
 
 .profile__info {
     display: flex;
+    justify-items: flex-start;
+    align-items: center;
 }
 
 .profile__name {
-
+    
 }
 
 .profile__name_author {
-
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0 0 16px;
 }
 
 .profile__name_comment {
-
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
 }
 
 .profile__edit-button {
     width: 24px;
     height: 24px;
     background-color: black;
+    border-color: white;
+    margin-left: 25px;
 }
 
 .profile__edit-button_picture {
@@ -67,6 +79,7 @@
     height: 50px;
     background-color: black;
     padding: 14px 64px;
+    border-color: white;
 }
 
 .profile__button_picture {
@@ -76,12 +89,11 @@
 }
 
 .elements {
-    width: calc(100% - 200px * 2);
+    /*width: calc(100% - 200px * 2);*/
     margin: 47.25px 200px 0;
 }
 
 .elements__list {
-    
     list-style: none;
     display: grid;
     align-content: center;
@@ -98,6 +110,8 @@
 
 .elements__figure {
     margin: 0;
+    overflow: hidden;
+    border-radius: 5%;
 }
 
 .elements__photo {
@@ -105,21 +119,31 @@
     height: 282px;
     margin: 0;
     padding: 0;
+    display: block;
+   
 }
 
 .elements__caption {
     background-color: white;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 31px;
     
 }
 
 .elements__title {
     color: black;
     background-color: white;
-    padding: 25px 20px 31px;
     margin: 0;
     line-height: 29,05px;
     font-size: 24px;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    
 }
 
 .elements__like {
@@ -127,9 +151,13 @@
 }
 
 .footer {
-
+    /*width: calc(100% - 200px * 2);*/
 }
 
 .footer__copyright {
     color: grey;
+    margin: 67px 200px 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
