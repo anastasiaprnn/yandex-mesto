@@ -296,16 +296,21 @@
     max-width: calc(100% - 200px * 2);
     margin: 0 auto;
     z-index: 1;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
 
 @media screen and (max-width: 320px) {
     .popup {
         max-width: calc(100% - 19px * 2);
     }
+}
+
+.popup__opened {
+    display: flex;
 }
 
 .popup__form {
