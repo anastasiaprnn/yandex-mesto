@@ -1,13 +1,13 @@
 let formOpener = document.querySelector('.profile__edit-button');
 let content = document.querySelector('.popup');
 function popupOpened() {
-    content.classList.add('.popup-opened');
+    content.classList.add('popup__opened');
 }
 formOpener.addEventListener('click', popupOpened);
 
 let formCloser = document.querySelector('.popup__close-button');
 function popupClosed() {
-    content.classList.remove('.popup-opened');
+    content.classList.remove('popup__opened');
 }
 formCloser.addEventListener('click', popupClosed);
 
@@ -21,7 +21,7 @@ function formSubmitHandler (evt) {
     profileAuthor.textContent = nameInput.value;
     profileComment.textContent = jobInput.value;
 
-    formCloser();
+    popupClosed();
 }
 
 formElement.addEventListener('submit', formSubmitHandler);
