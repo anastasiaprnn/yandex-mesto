@@ -7,6 +7,6 @@
 @media screen and (max-width: 320px) {
     .profile__edit-button_picture {
         width: 7.5px;
-        width: 7.5px;
+        height: 7.5px;
     }
 }
