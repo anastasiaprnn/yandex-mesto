@@ -1,0 +1,9 @@
+.elements__like {
+    background: url(../../../pictures/empty_like.svg) no-repeat;
+    width: 22px;
+    height: 19px;
+}
+
+.elements__like:hover {
+    background: url(../../../pictures/Union.svg) no-repeat;
+}

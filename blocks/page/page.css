@@ -1,0 +1,10 @@
+.page {
+    font-family: 'Inter', 'Arial', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    color: #FFFFFF;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
