@@ -1,4 +1,4 @@
-let formOpener = document.querySelector('.profile__edit-button');
+let formOpener = document.querySelector('.profile__edit');
 let content = document.querySelector('.popup');
 function popupOpened() {
     content.classList.add('popup__opened');
@@ -14,8 +14,8 @@ formCloser.addEventListener('click', popupClosed);
 let formElement = document.querySelector('.popup__form');
 let nameInput = formElement.querySelector('.popup__name');
 let jobInput = formElement.querySelector('.popup__comment');
-let profileAuthor = document.querySelector('.profile__name_author');
-let profileComment = document.querySelector('.profile__name_comment');
+let profileAuthor = document.querySelector('.profile__author');
+let profileComment = document.querySelector('.profile__comment');
 function formSubmitHandler (evt) {
     evt.preventDefault(); 
     profileAuthor.textContent = nameInput.value;
