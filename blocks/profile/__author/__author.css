@@ -5,6 +5,13 @@
     margin: 0 0 16px;
 }
 
+@media screen and (max-width: 1024px) {
+    .profile__author {
+        font-size: 35px;
+        line-height: 41px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .profile__author {
         font-size: 27px;
