@@ -5,7 +5,13 @@
     margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
+    .profile__comment {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .profile__comment {
         font-size: 14px;
         line-height: 17px;

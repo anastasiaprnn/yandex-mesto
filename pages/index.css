@@ -2,7 +2,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/elements/__caption/__caption.css);
-@import url(../blocks/elements/__element/__element.css);
 @import url(../blocks/elements/__figure/__figure.css);
 @import url(../blocks/elements/__like/__like.css);
 @import url(../blocks/elements/__list/__list.css);

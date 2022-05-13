@@ -1,5 +1,24 @@
 .profile__info {
     display: flex;
-    align-items: center;
     justify-self: flex-start;
+    padding-right: 200px;
+}
+
+@media screen and (max-width: 1279px) {
+    .profile__info {
+        padding: 0;
+    }
+}
+    
+@media screen and (max-width: 1023px) {
+    .profile__info {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .profile__info {
+        margin-top: 22.25px;
+        padding-left: 30px;
+    }
 }

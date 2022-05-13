@@ -1,3 +1,4 @@
+
 const formOpener = document.querySelector('.profile__edit');
 const content = document.querySelector('.popup');
 function popupOpened() {
@@ -5,11 +6,7 @@ function popupOpened() {
 }
 formOpener.addEventListener('click', popupOpened);
 
-const formCloser = document.querySelector('.popup__close-button');
-function popupClosed() {
-    content.classList.remove('popup__opened');
-}
-formCloser.addEventListener('click', popupClosed);
+
 
 const formElement = document.querySelector('.popup__form');
 let nameInput = formElement.querySelector('.popup__name');
@@ -25,3 +22,11 @@ function formSubmitHandler (evt) {
 }
 
 formElement.addEventListener('submit', formSubmitHandler);
+
+
+
+const formCloser = document.querySelector('.popup__close-button');
+function popupClosed() {
+    content.classList.remove('popup__opened');
+}
+formCloser.addEventListener('click', popupClosed);
