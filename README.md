@@ -4,3 +4,5 @@
 
 Для создания страницы использовались HTML, CSS и JavaScript. 
 Планируется развитие и добавление новых функций на странице. 
+
+Ссылка на GitHub Pages: https://anastasiaprnn.github.io/yandex-mesto/

@@ -1,7 +1,7 @@
 .profile__info {
     display: flex;
     justify-self: flex-start;
-    padding-right: 200px;
+    padding-right: 210px;
 }
 
 @media screen and (max-width: 1279px) {
