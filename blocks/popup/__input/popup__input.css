@@ -1,4 +1,4 @@
-.popup__comment {
+.popup__input {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -6,12 +6,20 @@
     background: transparent;
     border-bottom: 1px solid rgba(84,84,84, .7);
     padding: 0;
-    margin: 0 0 48px;
     padding-bottom: 7px;
+    font-family: 'Inter', 'Arial', 'sans-serif';
+}
+
+.popup__input:first-of-type {
+     margin: 0 0 30px;
+}
+
+.popup__input:last-of-type {
+    margin: 0 0 48px;
 }
 
 @media screen and (max-width: 767px) {
-    .popup__comment {
+    .popup__input:last-of-type {
         margin: 0 0 45px;
     }
 }
