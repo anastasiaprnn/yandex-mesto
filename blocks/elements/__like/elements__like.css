@@ -7,5 +7,9 @@
 }
 
 .elements__like:hover {
+    opacity: 50%;
+}
+
+.elements__like:active {
     background: url(../../../pictures/Union.svg) no-repeat;
 }

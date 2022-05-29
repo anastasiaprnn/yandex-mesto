@@ -1,10 +1,10 @@
 const formElement = document.querySelector('.popup__form');
-let nameInput = formElement.querySelector('.popup__input');
-let jobInput = formElement.querySelector('.popup__input');
+let nameInput = formElement.querySelector('.popup_type_name');
+let jobInput = formElement.querySelector('.popup_type_comment');
 let profileAuthor = document.querySelector('.profile__author');
 let profileComment = document.querySelector('.profile__comment');
 const formOpener = document.querySelector('.profile__edit');
-const content = document.querySelector('.popup__container');
+const content = document.querySelector('.popup');
 
 function popupOpened() {
     content.classList.add('popup_opened');
